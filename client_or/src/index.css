@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:wght@800&family=Pacifico&family=Poppins:wght@300&family=Roboto:wght@100&family=Source+Code+Pro:wght@200&family=Urbanist:wght@500&display=swap');
+
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body{
+    background-color: #212529;
+}
+
+
+.content{
+    height:auto;
+}
+
+.register-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90.5vh;
+    /* width:50% ; */
+}
+
+.filters{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    box-shadow: 0 0 4px grey;
+}
+
+.register-page{
+    background-color: rgba(0, 0, 0, 0.763);
+}
+.register{
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    margin: 10px;
+    background-color: white;
+    
+    
+}
+
+.btn{
+    
+        color: white;
+        background-color: rgb(8, 54, 204);
+      
+}
+
+.footer {
+    position: relative;
+    bottom: 0 ;
+    width: 100%;
+    height: 55px;   
+    background: #6cf;
+ }
